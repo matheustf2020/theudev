@@ -1,0 +1,39 @@
+#!/bin/bash
+echo "Script automatizado para matheus trindade, devtrin!"
+read
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt dist-upgrade -y
+sudo apt autoremove -y
+echo "Refresh and updated system, continue to install essentials apts"
+read -t2
+sudo apt-get install net-tools -y
+sudo apt-get install synaptic -y
+sudo apt-get install build-essential -y
+sudo apt-get install module-assistant -y
+sudo apt-get install python -y
+sudo apt-get install python3 -y
+sudo apt-get install nmap -y
+sudo apt-get install ubuntu-restricted-extras -y
+sudo apt-get install figlet -y
+sudo apt-get install python3-pip -y
+sudo apt-get install tshark -y
+sudo apt-get install python-pip -y
+sudo apt-get install gedit* -y
+sudo apt-get install iw -y
+sudo apt-get install snapd -y
+sudo apt-get install vlc -y
+sudo apt-get install crunch -y
+sudo apt-get install git -y
+sudo apt-get install 7zip* -y
+sudo apt-get install rar unrar -y
+sudo apt-get install curl -y
+sudo apt-get install dkms -y
+sudo apt-get install perl -y
+sudo apt-get update -y && sudo apt-get upgrade -y
+clear
+sudo snap install hello-world
+read
+echo "The first package installed OK, press any button for exit script"
+exit
+
